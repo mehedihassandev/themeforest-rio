@@ -1,0 +1,1374 @@
+/* 
+
+------------------
+Template Name: Rio - Resturent & Cafe & Bar Landing Page Template
+Author: monsterdevm
+Author Email: mh.web.mehedihassan@gmail.com
+Version: 1.00
+----------------
+
+----------------
+Table of Content
+----------------
+1.Navbar Part
+2.Banner Part
+3.Special Part
+4.Menu Part 
+5.Team Part
+6.Review Part
+7.Book A Table Part
+8.Opening Hour Part
+9.Gallary Part
+10.IMG Part
+11.Blog Part
+12.Contact Part
+
+*/
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.card-title {
+    margin: 0;
+}
+
+.card-text {
+    margin: 0;
+}
+
+.bg {
+    background: rgba(0, 0, 0, 0.9);
+    animation: navbar 1s;
+}
+
+@keyframes navbar {
+    from {
+        top: -80px;
+    }
+
+    to {
+        top: 0;
+    }
+}
+
+.back2top i {
+    width: 40px;
+    height: 40px;
+    color: #222;
+    background: #F7FA00;
+    line-height: 40px;
+    text-align: center;
+}
+
+.back2top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+
+}
+
+
+/*=================Navbar Part CSS Start====================*/
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    width: 100%;
+    z-index: 99999999;
+}
+
+.navbar {
+    padding: 0;
+}
+
+
+.navbar-light .navbar-brand {
+    font-size: 30px;
+    padding: 15px 20px;
+    color: #fff;
+    transition: all linear .3s;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Alegreya', serif;
+    color: #fff;
+    transition: all linear .3s;
+    padding: 0 10px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #F7FA00;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: #fff;
+}
+
+.navber-button {
+    padding: 25px 19.5px;
+}
+
+
+.navbar-cmt {
+    padding: 15px 20px;
+    background: #F7FA00;
+
+}
+
+.navber-button a {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Cabin', sans-serif;
+    color: #222;
+    text-transform: uppercase;
+    transition: all linear .3s;
+}
+
+.navber-button a:hover {
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+}
+
+.nav-item i {
+    transform: rotate(225deg);
+}
+
+.navbar a:hover {
+    text-decoration: none;
+}
+
+.navbar-brand span {
+    color: #F7FA00;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    position: relative;
+    padding: 5px 15px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+    color: #F7FA00;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #F7FA00;
+}
+
+
+.hvr-underline-from-center:before {
+    background: #F7FA00;
+    height: 1px;
+}
+
+
+.navbar-brand img {
+    padding: 0 10px;
+    width: 70px;
+    height: 36px;
+}
+
+
+/*================Banner Part CSS==============*/
+#banner {
+    padding-top: 250px;
+    padding-bottom: 150px;
+    background: url(../img/banner/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+
+#banner:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.banner-img {
+    position: relative;
+
+}
+
+.banner-header {
+    position: absolute;
+    z-index: 99999;
+}
+
+.banner-link {
+    position: absolute;
+    z-index: 9999;
+    transform: rotate(-90deg);
+    top: 50%;
+    right: 10%;
+}
+
+.banner-header {
+    position: relative;
+    z-index: 99;
+}
+
+.banner-header h1 {
+    font-size: 55px;
+    font-weight: 600;
+    font-family: 'Alegreya', serif;
+    color: #fff;
+}
+
+.banner-header h3 {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+.banner-header p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    letter-spacing: 2px;
+    line-height: 26px;
+}
+
+.banner-link a {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    color: #F7FA00;
+    letter-spacing: 2px;
+    padding: 0 10px;
+    transition: all linear .3s;
+}
+
+.banner-a {
+    padding-top: 100px;
+}
+
+.banner-a a {
+    padding: 15px 25px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    background: rgba(34, 34, 34, 0.85);
+    color: #fff;
+    text-transform: uppercase;
+    transition: all linear .3s;
+}
+
+.banner-a a:hover {
+    text-decoration: none;
+    background: #F7FA00;
+    color: #222;
+}
+
+/*===============Special Part CSS==============*/
+#special {
+    padding-top: 80px;
+    padding-bottom: 57px;
+    background: #222;
+}
+
+.special-item .card {
+    border: 0;
+    transition: all linear .3s;
+}
+
+.special-item .card-img-top {
+    width: 100%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    transition: all linear .3s;
+    height: 230px;
+}
+
+.special-item .card-body {
+    text-align: center;
+    background: #222;
+}
+
+.special-item .card-img-top:hover {
+    transform: scale(1.2);
+}
+
+.special-item .card a {
+    overflow: hidden;
+}
+
+.special-item .card-body {
+    position: relative;
+}
+
+.special-item .card-body .special-price {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.special-item .card-body .special-price h2 {
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    color: #222;
+    padding: 10px 20px;
+    background: #F7FA00;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.special-item .card-body h5 {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Alegreya', serif;
+    color: #fff;
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+
+.special-item .card-body p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    color: #fff;
+}
+
+.special-header h2 {
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'Great Vibes', cursive;
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+.special-header h3 {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    color: #fff;
+    padding-bottom: 50px;
+}
+
+/*==================Menu Part CSS=====================*/
+#menu {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    background: url(../img/menu/menu.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+#menu:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.menu-header {
+    position: relative;
+    z-index: 99;
+}
+
+.menu-button {
+    position: relative;
+    z-index: 99;
+}
+
+.menu-item {
+    position: relative;
+    z-index: 99;
+}
+
+.menu-header h2 {
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'Great Vibes', cursive;
+    color: #fff;
+    padding-bottom: 15px;
+}
+
+.menu-header h3 {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    color: #fff;
+}
+
+.menu-header {
+    padding-bottom: 10px;
+}
+
+.menu-button {
+    padding-bottom: 15px;
+}
+
+.menu-item {
+    border: 1px solid #fff;
+    padding: 0 40px;
+    margin-top: 30px;
+    background: rgba(18, 16, 18, 0.6);
+    padding-top: 20px;
+    padding-bottom: 10px;
+    transition: all linear .3s;
+}
+
+.menu-item:hover {
+    border: 1px solid #F7FA00;
+}
+
+.menu-item h2 {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    color: #fff;
+    padding-bottom: 10px;
+    transition: all linear .3s;
+}
+
+.menu-item span {
+    font-family: 'Alegreya', serif;
+}
+
+.menu-item p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    color: #fff;
+    letter-spacing: 1px;
+    transition: all linear .3s;
+}
+
+#menu-part {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    background: #444;
+    position: relative;
+    margin-bottom: 2px;
+}
+
+#menu-part:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.menu-part-header {
+    position: relative;
+    z-index: 99;
+}
+
+.menu-part-header h2 {
+    font-size: 48px;
+    font-weight: 500;
+    font-family: 'Great Vibes', cursive;
+    color: #fff;
+}
+
+.menu-button {
+    padding-bottom: 15px;
+    position: relative;
+    z-index: 99;
+}
+
+.menu-button .btn {
+    margin-top: 30px;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 40px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Great Vibes', cursive;
+    background: transparent;
+    margin-left: 20px;
+    border-radius: 0;
+}
+
+.menu-button .btn:hover {
+    background: #F7FA00;
+    color: #222;
+    border: 1px solid #F7FA00;
+}
+
+
+/*============================Team Part CSS Start=============================*/
+#team {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: #222;
+
+}
+
+.team-header {
+    padding-bottom: 30px;
+}
+
+.team-header h3 {
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'Great Vibes', cursive;
+    color: #fff;
+}
+
+.team-header p {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    color: #fff;
+}
+
+.team-item .card {
+    border: 0;
+    transition: all linear .3s;
+}
+
+.team-item .card-img-top {
+    width: 100%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    transition: all linear .3s;
+}
+
+.team-item .card-body {
+    border: 1px solid #F7FA00;
+    background: #222;
+}
+
+.team-item .card-body h5 {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: #fff;
+    padding-bottom: 5px;
+}
+
+.team-item .card-body p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Great Vibes', cursive;
+    color: #fff;
+}
+
+.team-item .card-img {
+    position: relative;
+    transition: all linear .3s;
+}
+
+.team-item .card-img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: all linear .3s;
+}
+
+.team-item .card-img:hover .card-img-overlay {
+    opacity: 1;
+}
+
+.team-item .card-img-overlay i {
+    position: relative;
+    font-size: 20px;
+    color: #F7FA00;
+    left: 0;
+    top: 0;
+    transition: all linear .3s;
+}
+
+.team-item .card-img:hover .card-img-overlay i {
+    top: 50%;
+}
+
+.team-item .card-img:hover img {
+    transform: scale(1.2);
+}
+
+.team-item .card-img {
+    overflow: hidden;
+}
+
+
+/*============================Review Part CSS Start=============================*/
+#review {
+    padding-top: 65px;
+    padding-bottom: 65px;
+    background: url(../img/review/review.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#review:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+
+}
+
+.review-header {
+    position: relative;
+    z-index: 999;
+    padding-bottom: 30px;
+}
+
+.review-header h2 {
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'Great Vibes', cursive;
+    color: #fff;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    padding-bottom: 5px;
+}
+
+.review-header p {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.review-slider {
+    position: relative;
+    z-index: 999;
+}
+
+.review-item {
+    padding: 15px 0;
+}
+
+.review-slider .slick-slide img {
+    display: inline-block;
+    padding-bottom: 10px;
+    border-radius: 50%;
+}
+
+.review-item h3 {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    color: #fff;
+    padding-bottom: 15px;
+}
+
+.review-item p {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Great Vibes', cursive;
+    color: #fff;
+    padding: 0 100px;
+    padding-bottom: 10px;
+}
+
+.review-item i {
+    font-size: 18px;
+    color: #fff;
+    transition: all linear .3s;
+}
+
+.review-item i:hover {
+    color: #F7FA00;
+}
+
+.review-item img {
+    padding-bottom: 10px;
+}
+
+
+/*======================Book A Table Part CSS Start======================*/
+#table {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: #222;
+}
+
+.table-h2 {
+    padding-bottom: 30px;
+}
+
+.table-h2 h2 {
+    font-size: 48px;
+    font-weight: 500;
+    font-family: 'Great Vibes', cursive;
+    color: #fff;
+}
+
+.table-img img {
+    width: 100%;
+    height: 655px;
+}
+
+.table-header {
+    padding-left: 15px;
+}
+
+.form-row {
+    margin-left: 15px;
+}
+
+.table-header h2 {
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'Great Vibes', cursive;
+    color: #fff;
+}
+
+.table-header h3 {
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+.table-header p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    color: #fff;
+    line-height: 26px;
+
+}
+
+.table-input {
+    margin-top: 30px;
+}
+
+
+.form-control {
+    border: 1px dashed #F7FA00;
+    border-radius: 0;
+    padding: 10px 20px;
+    background: transparent;
+}
+.form-control:focus{
+    background: #222;
+    box-shadow: 0 0 0 0.2rem rgba(247, 250, 0, 0.6);
+    border-color: #F7FA00;
+}
+.table-input textarea {
+    resize: none;
+    height: 95px;
+}
+
+.table-button .btn {
+    margin-top: 30px;
+    color: #fff;
+    border: 1px dashed #F7FA00;
+    padding: 10px 40px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Great Vibes', cursive;
+    background: transparent;
+    margin-left: 20px;
+    border-radius: 0;
+}
+
+.table-button .btn:hover {
+    background: #F7FA00;
+    color: #222;
+}
+
+
+/*============================Opening Hour Part CSS Start=============================*/
+#open {
+    padding-top: 80px;
+    padding-bottom: 55px;
+    background: url(../img/open/open.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#open:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.open-header {
+    position: relative;
+    z-index: 99;
+    padding-bottom: 60px;
+}
+
+.open-time {
+    position: relative;
+    z-index: 99;
+}
+
+.open-header h2 {
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Great Vibes', cursive;
+    color: #fff;
+    padding-bottom: 5px;
+}
+
+.open-header h3 {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    color: #fff;
+}
+
+.open-left {
+    border-right: 1px solid #fff;
+}
+
+.open-left h2 {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    color: #fff;
+    padding-bottom: 5px;
+}
+
+.open-left h3 {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    color: #fff;
+    padding-bottom: 5px;
+}
+
+.open-left h4 {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    color: #fff;
+}
+
+.open-right {
+    border-left: 1px solid #fff;
+}
+
+.open-right h2 {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    color: #fff;
+    padding-bottom: 5px;
+}
+
+.open-right h3 {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    color: #fff;
+    padding-bottom: 5px;
+}
+
+.open-right h4 {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    color: #fff;
+}
+
+.open-contact {
+    padding-top: 60px;
+}
+
+.open-contact a {
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: #F7FA00;
+}
+
+.open-contact {
+    position: relative;
+    z-index: 99;
+}
+
+
+/*============================Gallary Part CSS Start=============================*/
+#gallary {
+    padding-top: 80px;
+    padding-bottom: 65px;
+    background: #222;
+}
+
+.gallary-img img {
+    width: 100%;
+    transition: all linear .3s;
+    height: 230px;
+}
+
+.gallary-img {
+    position: relative;
+    margin-top: 30px;
+}
+
+.gallary-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: all linear .3s;
+}
+
+.gallary-overlay i {
+    position: relative;
+    font-size: 20px;
+    color: #F7FA00;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, -50%);
+    transition: all linear .3s;
+}
+
+.gallary-img:hover .gallary-overlay {
+    opacity: 1;
+}
+
+.gallary-img:hover .gallary-overlay i {
+    top: 50%;
+}
+
+.gallary-img:hover img {
+    transform: scale(1.2);
+}
+
+.gallary-img {
+    overflow: hidden;
+}
+
+.gallary-header h2 {
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'Great Vibes', cursive;
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+.gallary-header h3 {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    color: #fff;
+    padding-bottom: 35px;
+}
+
+.gallary-button .btn {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Great Vibes', cursive;
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 10px 40px;
+    margin: 0 18px;
+    color: #fff;
+    transition: all linear .3s;
+    border-radius: 0;
+}
+
+.gallary-button .btn:hover {
+    color: #222;
+    background: #F7FA00;
+    border: 1px solid #F7FA00;
+}
+
+.gallary-button {
+    padding-bottom: 10px;
+}
+
+.gal-button .btn {
+    margin-top: 40px;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 40px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Great Vibes', cursive;
+    background: transparent;
+    margin-left: 20px;
+    border-radius: 0;
+}
+
+.gal-button .btn:hover {
+    background: #F7FA00;
+    color: #222;
+}
+
+/*============================IMG Part CSS Start=============================*/
+.img-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.img-img img {
+    width: 100%;
+    transition: all linear .3s;
+}
+
+.img-img:hover img {
+    transform: scale(1.2);
+}
+
+.img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: all linear .3s;
+}
+
+.img-img:hover .img-overlay {
+    opacity: 1;
+}
+
+.img-overlay-text {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.img-overlay-text h2 {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    color: #fff;
+}
+
+.img-overlay-text p {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Great Vibes', cursive;
+    color: #fff;
+}
+
+
+/*============================Blog Part CSS Start=============================*/
+#blog {
+    padding-top: 80px;
+    padding-bottom: 75px;
+    background: #222;
+}
+
+.blog-header h2 {
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Great Vibes', cursive;
+    color: #fff;
+}
+
+.blog-header {
+    padding-bottom: 30px;
+}
+
+.blog-item .card-img-top {
+    width: 100%;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.blog-item .card-body {
+    padding: 0;
+    background: #222;
+}
+
+.blog-item .card {
+    border: 0;
+}
+
+.blog-item .card-title {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.blog-item span {
+    color: #999;
+}
+
+.blog-item .card-text {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Alegreya', serif;
+    color: #fff;
+    padding-bottom: 15px;
+}
+
+.blog-item a {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    color: #fff;
+}
+
+.blog-item a:hover {
+    text-decoration: none;
+}
+
+.blog-item i {
+    font-size: 14px;
+    color: #fff;
+    padding-left: 14px;
+}
+
+
+/*============================Contac Part CSS Start=============================*/
+#footer {
+    padding-top: 80px;
+    padding-bottom: 10px;
+    background: url(../img/footer/footer.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#footer:after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(34, 34, 34, 0.5);
+}
+.footer-zindex{
+    position: relative;
+    z-index: 99;
+}
+
+.footer-header {
+    padding-bottom: 30px;
+}
+
+.footer-header h2 {
+    font-size: 32px;
+    font-weight: 600;
+    font-family: 'Alegreya', serif;
+    color: #fff;
+}
+
+.footer-header span {
+    color: #F7FA00;
+}
+
+.footer-left h2 {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    color: #fff;
+    padding-bottom: 15px;
+}
+
+.footer-left p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    line-height: 26px;
+    padding: 0 35px;
+}
+
+.footer-center h2 {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    color: #fff;
+    padding-bottom: 30px;
+    text-transform: capitalize;
+}
+
+.footer-social i {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 18px;
+    margin: 0 15px;
+    transition: all linear .3s;
+}
+
+.footer-social i:hover {
+    color: #F7FA00;
+    border: 1px solid #F7FA00;
+}
+
+.footer-social {
+    padding-bottom: 30px;
+}
+
+.footer-header h2 {
+    font-size: 32px;
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Alegreya', serif;
+}
+
+.footer-header {
+    padding-bottom: 30px;
+}
+
+.footer-contact h2 {
+    color: #fff;
+    font-size: 16px;
+}
+
+.footer-contact h3 {
+    color: #fff;
+    font-size: 16px;
+}
+
+.footer-contact h4 {
+    color: #fff;
+    font-size: 16px;
+}
+
+.footer-contact h5 {
+    color: #fff;
+    font-size: 16px;
+}
+
+.f-con-one {
+    border-right: 2px solid #F7FA00;
+}
+
+.copyright {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.copyright h2 {
+    font-size: 16px;
+    font-weight: 300;
+    color: #999;
+    font-family: 'Alegreya', serif;
+}
+
+.footer-a a {
+    font-size: 18px;
+    color: #222;
+    font-family: 'Alegreya', serif;
+    padding: 10px 30px;
+    background: #F7FA00;
+    border-radius: 15px 15px 0 0;
+}
+
+.footer-a a:hover {
+    text-decoration: none;
+    transform: scale(1.2);
+}
+
+.footer-a {
+    padding-top: 30px;
+}
+
+
+/*==================Preeloader CSS Part Start======================*/
+.load {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: 99999999999;
+    background: #FFFCF9;
+}
+
+body {
+    overflow: hidden;
+}
+
+.load img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.load_finish {
+    display: none;
+}
+
+
+
+
+
+
+
+
+/*
+    font-family: 'Alegreya',serif;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Open Sans', sans-serif;
+*/

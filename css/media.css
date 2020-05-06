@@ -1,0 +1,1025 @@
+/*================Extra small devices (portrait phones, less than 576px)================*/
+
+@media (max-width: 575.98px) {
+    .navbar-light .navbar-brand {
+        padding: 5px 10px;
+        border: transparent;
+    }
+
+    .navbar-toggler a {
+        color: #fff;
+    }
+
+    .navber-button a {
+        display: none;
+    }
+
+    .navbar-nav {
+        text-align: center;
+        background: rgba(34, 34, 34, 0.68);
+    }
+
+    .navbar-light .navbar-toggler {
+        color: #fff;
+        border-color: #fff;
+        border-radius: 0;
+        margin-right: 15px;
+    }
+
+    #banner {
+        padding-top: 85px;
+        padding-bottom: 80px;
+    }
+
+
+    .banner-header h1 {
+        font-size: 40px;
+        padding-bottom: 15px;
+    }
+
+    .banner-header h3 {
+        font-size: 17px;
+        letter-spacing: 2px;
+        padding-bottom: 20px;
+        padding-top: 10px;
+    }
+
+    .banner-header p {
+        font-size: 13px;
+        letter-spacing: 0px;
+        padding: 0 1px;
+        line-height: 20px;
+    }
+
+    .banner-a {
+        padding-top: 20px;
+    }
+
+    .banner-link a {
+        display: none;
+    }
+
+    #special {
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+
+    .special-item .card-body h2 {
+        top: 41%;
+    }
+
+    #menu {
+        padding-top: 45px;
+        padding-bottom: 40px;
+    }
+
+    .menu-button {
+        padding-bottom: 0px;
+    }
+
+    .menu-item {
+        padding: 0 15px;
+        margin-top: 15px;
+        padding-top: 15px;
+        padding-bottom: 5px;
+    }
+
+    .menu-button {
+        margin-top: 20px;
+    }
+
+    .menu-button .btn {
+        margin: 3px 3px;
+        font-size: 14px;
+        padding: 10px 25px;
+    }
+
+    .menu-item h2 {
+        font-size: 11px;
+    }
+
+    .menu-item p {
+        font-size: 9px;
+    }
+
+    .menu-header {
+        padding-bottom: 0px;
+    }
+
+    .menu-header h2 {
+        padding-bottom: 0px;
+    }
+
+    #team {
+        padding-top: 50px;
+        padding-bottom: 55px;
+    }
+
+    #table {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .table-h2 {
+        padding-bottom: 15px;
+    }
+
+    .table-header h2 {
+        padding-top: 30px;
+    }
+
+    .table-header h3 {
+        font-size: 24px;
+        padding-bottom: 20px;
+    }
+
+    .table-header p {
+        font-size: 13px;
+        line-height: 24px;
+    }
+
+    .table-input {
+        margin-top: 18px;
+    }
+
+    .table-button .btn {
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+    .table-img img{
+        padding-top: 30px;
+    }
+
+    #open {
+        padding-top: 40px;
+        padding-bottom: 25px;
+    }
+
+    .open-header {
+        padding-bottom: 24px;
+    }
+
+    .open-left {
+        border-bottom: 1px solid #fff;
+        padding-bottom: 15px;
+    }
+
+    .open-right {
+        padding-top: 15px;
+    }
+
+    .open-contact {
+        padding-top: 26px;
+    }
+
+    #gallary {
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    .gallary-header h3 {
+        padding-bottom: 30px;
+    }
+
+    .gallary-button .btn {
+        margin: 5px 5px;
+        padding: 7px 21px;
+    }
+
+    .gal-button {
+        margin-top: 20px;
+    }
+
+    .review-item p {
+        font-size: 14px;
+        padding: 0 0;
+        margin-bottom: 0rem;
+    }
+
+    .review-slider {
+        padding: 0px 0px;
+    }
+
+    .review-item h3 {
+        padding-bottom: 5px;
+    }
+
+    #blog {
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+
+    .blog-header {
+        padding-bottom: 15px;
+    }
+
+    .blog-item .card-body h2 {
+        font-size: 12px;
+        top: 71%;
+    }
+
+    .img-overlay-text p {
+        font-size: 14px;
+    }
+
+    .img-overlay-text p {
+        font-size: 14px;
+    }
+
+
+    #footer {
+        padding-top: 40px;
+    }
+
+    .footer-social i {
+        margin: 0 2px;
+    }
+
+    .footer-social {
+        padding-bottom: 15px;
+    }
+
+    .footer-header {
+        padding-bottom: 13px;
+    }
+
+    .footer-contact h2 {
+        padding-bottom: 4px;
+    }
+
+    .footer-contact h3 {
+        padding-bottom: 4px;
+    }
+
+    .footer-contact h4 {
+        padding-bottom: 4px;
+    }
+
+    .footer-contact h5 {
+        padding-bottom: 4px;
+    }
+
+    .copyright h2 {
+        font-size: 12px;
+    }
+
+    .copyright {
+        padding-top: 8px;
+        padding-bottom: 15px;
+    }
+
+    .f-con-one {
+        border-right: transparent;
+    }
+    
+    
+    
+
+}
+
+
+
+
+
+
+
+
+/*====================Small devices (landscape phones, 576px and up)====================*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .navbar-light .navbar-brand {
+        padding: 5px 10px;
+        border: transparent;
+    }
+
+    .navbar-toggler a {
+        color: #fff;
+    }
+
+    .navber-button a {
+        display: none;
+    }
+
+    .navbar-nav {
+        text-align: center;
+        background: rgba(34, 34, 34, 0.68);
+    }
+
+    .navbar-light .navbar-toggler {
+        color: #fff;
+        border-color: #fff;
+        border-radius: 0;
+        margin-right: 15px;
+    }
+
+    #banner {
+        padding-top: 85px;
+        padding-bottom: 80px;
+    }
+
+
+    .banner-header h1 {
+        font-size: 40px;
+        padding-bottom: 15px;
+    }
+
+    .banner-header h3 {
+        font-size: 17px;
+        letter-spacing: 2px;
+        padding-bottom: 20px;
+        padding-top: 10px;
+    }
+
+    .banner-header p {
+        font-size: 13px;
+        letter-spacing: 0px;
+        padding: 0 1px;
+        line-height: 20px;
+    }
+
+    .banner-a {
+        padding-top: 20px;
+    }
+
+    .banner-link a {
+        display: none;
+    }
+
+    #special {
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+
+    .special-item .card-body h2 {
+        top: 41%;
+    }
+    .special-item .card-img-top{
+        height: 190px;
+    }
+    
+    .special-item .card-body h5{
+        font-size: 20px;
+    }
+    .special-item .card-body p{
+        font-size: 12px;
+    }
+
+    #menu {
+        padding-top: 45px;
+        padding-bottom: 40px;
+    }
+
+    .menu-button {
+        padding-bottom: 0px;
+    }
+
+    .menu-item {
+        padding: 0 15px;
+        margin-top: 15px;
+        padding-top: 15px;
+        padding-bottom: 5px;
+    }
+
+    .menu-button {
+        margin-top: 20px;
+    }
+
+    .menu-button .btn {
+        margin: 3px 3px;
+        font-size: 14px;
+        padding: 10px 29px;
+    }
+
+    .menu-item h2 {
+        font-size: 20px;
+    }
+
+    .menu-item p {
+        font-size: 14px;
+    }
+
+    .menu-header {
+        padding-bottom: 0px;
+    }
+
+    .menu-header h2 {
+        padding-bottom: 0px;
+    }
+
+    #team {
+        padding-top: 50px;
+        padding-bottom: 55px;
+    }
+
+    #table {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .table-h2 {
+        padding-bottom: 15px;
+    }
+
+    .table-header h2 {
+        padding-top: 30px;
+    }
+
+    .table-header h3 {
+        font-size: 24px;
+        padding-bottom: 20px;
+    }
+
+    .table-header p {
+        font-size: 13px;
+        line-height: 24px;
+    }
+
+    .table-input {
+        margin-top: 18px;
+    }
+
+    .table-button .btn {
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+    .table-img img{
+        padding-top: 30px;
+    }
+
+    #open {
+        padding-top: 40px;
+        padding-bottom: 25px;
+    }
+
+    .open-header {
+        padding-bottom: 24px;
+    }
+
+    .open-left {
+        border-bottom: 1px solid #fff;
+        padding-bottom: 15px;
+    }
+
+    .open-right {
+        padding-top: 15px;
+    }
+
+    .open-contact {
+        padding-top: 26px;
+    }
+
+    #gallary {
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    .gallary-header h3 {
+        padding-bottom: 30px;
+    }
+
+    .gallary-button .btn {
+        margin: 5px 5px;
+        padding: 7px 21px;
+    }
+
+    .gal-button {
+        margin-top: 20px;
+    }
+
+    .review-item p {
+        font-size: 14px;
+        padding: 0 0;
+        margin-bottom: 0rem;
+    }
+
+    .review-slider {
+        padding: 0px 0px;
+    }
+
+    .review-item h3 {
+        padding-bottom: 5px;
+    }
+
+    #blog {
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+
+    .blog-header {
+        padding-bottom: 15px;
+    }
+
+    .blog-item .card-body h2 {
+        font-size: 12px;
+        top: 71%;
+    }
+
+    .img-overlay-text p {
+        font-size: 14px;
+    }
+
+    .img-overlay-text p {
+        font-size: 14px;
+    }
+
+
+    #footer {
+        padding-top: 40px;
+    }
+
+    .footer-social i {
+        margin: 0 2px;
+    }
+
+    .footer-social {
+        padding-bottom: 15px;
+    }
+
+    .footer-header {
+        padding-bottom: 13px;
+    }
+
+    .footer-contact h2 {
+        padding-bottom: 4px;
+    }
+
+    .footer-contact h3 {
+        padding-bottom: 4px;
+    }
+
+    .footer-contact h4 {
+        padding-bottom: 4px;
+    }
+
+    .footer-contact h5 {
+        padding-bottom: 4px;
+    }
+
+    .copyright h2 {
+        font-size: 12px;
+    }
+
+    .copyright {
+        padding-top: 8px;
+        padding-bottom: 15px;
+    }
+
+    .f-con-one {
+        border-right: transparent;
+    }
+
+
+}
+
+/*========================Medium devices (tablets, 768px and up)========================*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar-light .navbar-brand {
+        padding: 5px 10px;
+        border: transparent;
+    }
+
+    .navbar-toggler a {
+        color: #fff;
+    }
+
+    .navber-button a {
+        display: none;
+    }
+
+    .navbar-nav {
+        text-align: center;
+        background: rgba(34, 34, 34, 0.68);
+    }
+
+    .navbar-light .navbar-toggler {
+        color: #fff;
+        border-color: #fff;
+        border-radius: 0;
+        margin-right: 15px;
+    }
+
+    #banner {
+        padding-top: 85px;
+        padding-bottom: 80px;
+    }
+
+
+    .banner-header h1 {
+        font-size: 40px;
+        padding-bottom: 15px;
+    }
+
+    .banner-header h3 {
+        font-size: 17px;
+        letter-spacing: 2px;
+        padding-bottom: 20px;
+        padding-top: 10px;
+    }
+
+    .banner-header p {
+        font-size: 13px;
+        letter-spacing: 0px;
+        padding: 0 1px;
+        line-height: 20px;
+    }
+
+    .banner-a {
+        padding-top: 20px;
+    }
+
+    .banner-link a {
+        display: none;
+    }
+
+    #special {
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+
+    .special-item .card-body h2 {
+        top: 41%;
+    }
+
+    #menu {
+        padding-top: 45px;
+        padding-bottom: 40px;
+    }
+
+    .menu-button {
+        padding-bottom: 0px;
+    }
+
+    .menu-item {
+        padding: 0 15px;
+        margin-top: 15px;
+        padding-top: 15px;
+        padding-bottom: 5px;
+    }
+
+    .menu-button {
+        margin-top: 20px;
+    }
+
+    .menu-button .btn {
+        margin: 3px 3px;
+        font-size: 14px;
+        padding: 10px 29px;
+    }
+
+    .menu-item h2 {
+        font-size: 20px;
+    }
+
+    .menu-item p {
+        font-size: 14px;
+    }
+
+    .menu-header {
+        padding-bottom: 0px;
+    }
+
+    .menu-header h2 {
+        padding-bottom: 0px;
+    }
+
+    #team {
+        padding-top: 50px;
+        padding-bottom: 55px;
+    }
+
+    #table {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .table-h2 {
+        padding-bottom: 15px;
+    }
+
+    .table-header h2 {
+        padding-top: 30px;
+    }
+
+    .table-header h3 {
+        font-size: 24px;
+        padding-bottom: 20px;
+    }
+
+    .table-header p {
+        font-size: 13px;
+        line-height: 24px;
+    }
+
+    .table-input {
+        margin-top: 18px;
+    }
+
+    .table-button .btn {
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+    .table-img img{
+        padding-top: 30px;
+    }
+
+    #open {
+        padding-top: 40px;
+        padding-bottom: 25px;
+    }
+
+    .open-header {
+        padding-bottom: 24px;
+    }
+
+    .open-left {
+        border-bottom: 1px solid #fff;
+        padding-bottom: 15px;
+    }
+
+    .open-right {
+        padding-top: 15px;
+    }
+
+    .open-contact {
+        padding-top: 26px;
+    }
+
+    #gallary {
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    .gallary-header h3 {
+        padding-bottom: 30px;
+    }
+
+    .gallary-button .btn {
+        margin: 5px 5px;
+        padding: 7px 21px;
+    }
+
+    .gal-button {
+        margin-top: 20px;
+    }
+
+    .review-item p {
+        font-size: 14px;
+        padding: 0 0;
+        margin-bottom: 0rem;
+    }
+
+    .review-slider {
+        padding: 0px 0px;
+    }
+
+    .review-item h3 {
+        padding-bottom: 5px;
+    }
+
+    #blog {
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+
+    .blog-header {
+        padding-bottom: 15px;
+    }
+
+    .blog-item .card-body h2 {
+        font-size: 12px;
+        top: 71%;
+    }
+
+    .img-overlay-text p {
+        font-size: 14px;
+    }
+
+    .img-overlay-text p {
+        font-size: 14px;
+    }
+
+
+    #footer {
+        padding-top: 40px;
+    }
+
+    .footer-social i {
+        margin: 0 2px;
+    }
+
+    .footer-social {
+        padding-bottom: 15px;
+    }
+
+    .footer-header {
+        padding-bottom: 13px;
+    }
+
+    .footer-contact h2 {
+        padding-bottom: 4px;
+    }
+
+    .footer-contact h3 {
+        padding-bottom: 4px;
+    }
+
+    .footer-contact h4 {
+        padding-bottom: 4px;
+    }
+
+    .footer-contact h5 {
+        padding-bottom: 4px;
+    }
+
+    .copyright h2 {
+        font-size: 12px;
+    }
+
+    .copyright {
+        padding-top: 8px;
+        padding-bottom: 15px;
+    }
+
+    .f-con-one {
+        border-right: transparent;
+    }
+
+}
+
+/*========================Large devices (desktops, 992px and up)========================*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    #banner {
+        padding-top: 145px;
+        padding-bottom: 150px;
+    }
+
+    .banner-header h1 {
+        font-size: 40px;
+        padding-bottom: 10px;
+    }
+
+    .banner-a {
+        padding-top: 50px;
+    }
+
+    #special {
+        padding-top: 50px;
+        padding-bottom: 35px;
+    }
+
+    .special-header h3 {
+        padding-bottom: 40px;
+    }
+
+    .special-item .card-body h5 {
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+
+    .menu-item {
+        padding: 0 20px;
+        padding-top: 15px;
+        padding-bottom: 5px;
+    }
+
+    .menu-item h2 {
+        font-size: 21px;
+        padding-bottom: 5px;
+    }
+
+    #menu {
+        padding-top: 60px;
+    }
+
+    .menu-button .btn {
+        margin: 0 5px;
+    }
+
+    .menu-header {
+        padding-bottom: 30px;
+    }
+
+    .menu-button {
+        padding-bottom: 0;
+        padding-top: 10px;
+    }
+
+    #team {
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+
+    .team-header {
+        padding-bottom: 20px;
+    }
+
+    .review-item p {
+        padding: 0 0px;
+    }
+
+    .review-slider {
+        padding: 20px 30px;
+    }
+
+    #table {
+        padding-top: 60px;
+        padding-bottom: 70px;
+    }
+
+    .table-header h3 {
+        padding-bottom: 10px;
+    }
+
+    .table-input {
+        margin-top: 10px;
+    }
+
+    .table-button .btn {
+        margin-top: 18px;
+    }
+
+    .table-header p {
+        font-size: 15px;
+        line-height: 26px;
+    }
+
+    #open {
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+
+    .open-header {
+        padding-bottom: 40px;
+    }
+
+    #gallary {
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+
+    .gallary-header h3 {
+        padding-bottom: 25px;
+    }
+
+    .gallary-button .btn {
+        margin: 0 5px;
+    }
+
+    .gallary-button {
+        padding-bottom: 10px;
+    }
+
+    .gallary-button .btn {
+        margin-top: 30px;
+    }
+
+    #blog {
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+
+    #footer {
+        padding-top: 60px;
+    }
+
+    .footer-social i {
+        margin: 0 5px;
+    }
+
+    .footer-contact h3 {
+        font-size: 14px;
+    }
+
+
+}
+
+/*=================Extra large devices (large desktops, 1200px and up)=================*/
+
+@media (min-width: 1200px) {
+    /*
+    #banner {
+        padding-top: 145px;
+        padding-bottom: 150px;
+    }
+
+    .banner-a {
+        padding-top: 50px;
+    }
+
+    .banner-header h1 {
+        padding-bottom: 5px;
+    }
+*/
+
+
+
+
+
+
+
+
+
+}
